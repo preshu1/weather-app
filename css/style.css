@@ -56,3 +56,29 @@ button:hover {
   background-color: #3aa0b9;
   cursor: pointer;
 }
+.weather-item {
+  background-color: #e0f7fa; /* light blue card effect */
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+#reset {
+  display: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+}
+
+#reset:hover {
+  background-color: #e04848;
+}
