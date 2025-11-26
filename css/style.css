@@ -33,12 +33,16 @@ h3 {
   font-size: 2rem;
   text-shadow: 3px 4px 15px #bdd9d7;
 }
-input,
-button {
+input {
   font-size: 1.2rem;
   text-align: center;
   font-weight: 300;
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
+
 button {
   border: none;
   border-radius: 10px;
@@ -47,4 +51,8 @@ button {
   font-size: 17px;
   font-weight: 500px;
   background-color: #66c7d4;
+}
+button:hover {
+  background-color: #3aa0b9;
+  cursor: pointer;
 }
